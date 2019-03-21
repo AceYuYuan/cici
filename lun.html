@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;list-style: none;}
+    #box{width: 600px;height: 400px;position: relative;margin: 50px auto;border:2px solid black;}
+    button{width: 20px;height: 20px;border-radius: 50%;background: #fff;}
+    .btn1 button{background: #000;}
+    .img1 img{opacity: 1;}
+    #img-box li{position: absolute;}
+    #button-box{position: absolute;bottom:0;left:50%;left:270px;}
+    #button-box li{float: left;}
+    img{opacity: 0;width: 600px;height: 400px;}
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="img-box">
+            <ul>
+                <!-- <li class="img1"><img src="1.jpg" alt=""></li>
+                <li><img src="2.jpg" alt=""></li>
+                <li><img src="3.jpg" alt=""></li> -->
+            </ul>
+        </div>
+        <div id="button-box">
+            <ul >
+                <li class="btn1"><button></button></li>
+                <li><button></button></li>
+                <li><button></button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="require.js" data-main="main"></script>
+    <!-- <script src="jquery-1.11.3.min.js"></script>
+    <script src="lunbo.js"></script> -->
+    <script>
+    // var result=[{"src":"1.jpg"},{"src":"2.jpg"},{"src":"3.jpg"}]
+    // // console.log($("#img-box").children().children().length)
+    // function int(){
+    //         for(i=0;i<result.length;i++){
+    //             var str="<ul>";
+    //             var li1="<li>";
+    //             var li2="</li>"
+    //     for(k=i;k<result.length;k++){
+    //         // $("#img-box img").
+    //         str+=li1+`<img src="${result[i].src}">`+li2;
+    //     }
+    //     str+="</ul>";
+    //     return str;
+    // }
+    // }
+    // // $("#")
+    // // img.src
+    // $("#img-box").append(int());
+    // $("#img-box li").eq(0).addClass("img1");
+
+    </script>
+</body>
+</html>
